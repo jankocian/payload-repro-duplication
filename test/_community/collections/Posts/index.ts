@@ -20,4 +20,8 @@ export const PostsCollection: CollectionConfig = {
       },
     },
   ],
+  versions: {
+    maxPerDoc: 33,
+    drafts: true,
+  },
 };
